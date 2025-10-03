@@ -1,2 +1,2 @@
 name="Vasilis"
-print("Hello and welcome " + name)
+print("Hello and welcome " + name + "!")
