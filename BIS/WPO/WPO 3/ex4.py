@@ -18,10 +18,9 @@ print("San Francisco Population Density: ", san_francisco_pop_density)
 print("Rio Population Density: ", rio_de_janeiro_pop_density)
 
 print("Is the population of San Francisco more dense than that of Rio de Janeiro?")
-print("Answer is: ") # How do I put the answer in the same line?
+print("Answer is: ", end="") # How do I put the answer in the same line? - Update: Fixed with end=""
 
 if san_francisco_pop_density > rio_de_janeiro_pop_density:
     print(True)
 else:
     print(False)
-
